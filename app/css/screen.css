@@ -1,0 +1,145 @@
+
+body {
+	font: 12px Helvetica, Arial, "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #111;
+	background-color: #374052;
+	line-height: 1.5em;
+}
+
+div {
+	/*border: 1px solid #999;*/
+}
+
+blockquote {
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 1.1em;
+	color: #000;
+}
+
+#box {
+	border: 1px solid #ddd;
+	background-color: #fff;
+	width: 54em;
+	margin: 0 auto;
+	padding: 2em;
+}
+
+#head {
+	border-color: #f00;
+}
+
+#title {
+	/*  */
+	/*color: #993222;*/
+	padding-bottom: 1.75em;
+	border-bottom: 5px solid #422;
+	margin-bottom: 1em;
+}
+#title h1 {
+	font-size: 3.25em;
+	margin-bottom: 0.2em;
+}
+#title small {
+	font-size: 0.95em;
+	color: #993222;
+}
+
+#nav {
+	/*  */
+	margin: 0.1em 0;
+	margin-top: 0.27em;
+	padding-bottom: 0.1em;
+	height: 2.25em;
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0.1em 0;
+	font-weight: bold;
+}
+#nav ul li {
+	float: left;
+	margin-right: 0.5em;
+	border: 1px solid #ddd;
+	border-left-width: 4px
+}
+
+#nav ul li a {
+	color: #000;
+	width: 6em;
+	text-decoration: none;
+	display: block;
+	padding: 0.33em;
+	padding-left: 0.5em;
+	/*border-right: 1px solid #999;*/
+}
+#nav ul li a:hover {
+	color: #f00;
+}
+
+#content {
+	/*border-top: 1px solid #6C2A23;*/
+	clear: left;
+	margin-top: 0.1em;
+	padding-top: 1em;
+}
+
+#content .post {
+	margin-bottom: 0.5em;
+}
+
+#content .dateset {
+	margin-top: 2.5em;
+	margin-bottom: 0.5em;
+	/*border-left: 0.9em solid #ddd;*/
+	padding-left: 2.45em;
+	color: #afafaf;
+}
+#content .dateset h1 { margin: 0; font-size: 1.5em;}
+
+#content .post p {
+	font-size: 1.1em;
+}
+
+#content .post .item {
+	padding: 0.5em 0;
+	padding-left: 2em;
+}
+
+#content .post .page {
+	padding-left: 2.4em;
+}
+
+#content .post .text, #nav ul li.text {
+	border-left: 0.3em solid #4775AA;
+}
+
+#content .post .image, #nav ul li.image {
+	border-left: 0.3em solid #A8A850;
+}
+
+#content .post .link, #nav ul li.link {
+	border-left: 0.3em solid #964B49;
+}
+
+#content .post /*.image*/ h1 {
+	font-size: 2.25em;
+	color: #777;
+	font-weight: normal;
+}
+
+#content .post .meta {
+	font-size: 0.9em;
+}
+#content .post .meta .date {
+	color: #888;
+}
+
+#footer {
+	border-top: 1px solid #888;
+	color: #555;
+	padding: 1em;
+	margin-top: 5em;
+}
