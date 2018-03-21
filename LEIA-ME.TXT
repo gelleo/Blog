@@ -1,0 +1,3 @@
+Renomeie o arquivo exemplo.config.php para config.php.
+Altere as constantes para conectar no banco de dados.
+Rodar o script sql para criar as tabelas no banco de dados.
